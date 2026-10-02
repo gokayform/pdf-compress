@@ -1,0 +1,5 @@
+{
+  "negative/121-ContentStreamCycleType3insideType3.pdf": "recursive Type3 glyph execution detected",
+  "negative/126-boundingBox_invalid.pdf": "zero-size /MediaBox",
+  "negative/127-checkbox-bad-appearance.pdf": "refusing to invent an appearance"
+}

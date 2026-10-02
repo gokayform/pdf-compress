@@ -1,0 +1,3657 @@
+{
+  "corpus": "pdf-compress-public",
+  "entries": [
+    {
+      "category": "documents",
+      "encrypted": null,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "failure": "https://www.rfc-editor.org/rfc/pdfrfc/rfc8259.txt.pdf: HTTP Error 404: Not Found",
+      "local_path": "positive/001-rfc8259.pdf",
+      "origin_kind": "external_url",
+      "origin_revision": "url-sha256:ae078baa530c8ff71d8d6d6548d6143dbd57ef6d01252e127e5c9f5c61d28640",
+      "pdf_header": null,
+      "sha256": null,
+      "size": null,
+      "source_description": "RFC 8259 JSON specification PDF",
+      "source_path": "supplement/rfc8259.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://www.rfc-editor.org/rfc/pdfrfc/rfc8259.txt.pdf",
+      "status": "failed",
+      "tags": [
+        "documents",
+        "real-world"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/002-pdf20-an002-af.pdf",
+      "origin_kind": "external_url",
+      "origin_revision": "url-sha256:cfb8afdba8cfd3f5213cdb70de1d1c0494acb245549169eb87ef0abf8dd61ec0",
+      "pdf_header": true,
+      "sha256": "c174e881136b613d4e382dc7221a8f37a7c3c7c23a1106e2451911a51f2522b5",
+      "size": 152635,
+      "source_description": "PDF Association PDF 2.0 publication",
+      "source_path": "supplement/pdf20-an002-af.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://pdfa.org/download-area/publications/PDF20_AN002-AF.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents",
+        "real-world",
+        "standards"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/003-wai-pageauth-tech.pdf",
+      "origin_kind": "external_url",
+      "origin_revision": "url-sha256:b49d645694ca1891bd8d156cf939fdccca81f378bd253aa59adf48f420baa386",
+      "pdf_header": true,
+      "sha256": "811f5efa921e1ffb9a3663c67f7235a8eafed406ac8ba60e2a00812ea81167d2",
+      "size": 571733,
+      "source_description": "W3C page-authoring techniques working draft",
+      "source_path": "supplement/wai-pageauth-tech.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://www.w3.org/WAI/GL/WD-WAI-PAGEAUTH-19990104/wai-pageauth-tech.pdf",
+      "status": "downloaded",
+      "tags": [
+        "accessibility",
+        "documents",
+        "real-world"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/004-wcag22-headers-footers.pdf",
+      "origin_kind": "external_url",
+      "origin_revision": "url-sha256:4e610bfbf33eb6efe901500b1999d84c2a744c0ee96cfbb1fc3030a7dc7932a3",
+      "pdf_header": true,
+      "sha256": "7b1e220d5a3032a96f04bff6dba0b9460d7d1542f8248577ead90a9207a2832e",
+      "size": 83394,
+      "source_description": "W3C WCAG PDF headers and footers working example",
+      "source_path": "supplement/wcag22-headers-footers.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://www.w3.org/WAI/WCAG22/working-examples/pdf-headers-footers/headers-footers-oo.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents",
+        "forms",
+        "real-world"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/005-attention-is-all-you-need.pdf",
+      "origin_kind": "external_url",
+      "origin_revision": "url-sha256:c3ab01e47e614fe3cf33bf1941c4e55169af92f6e90001f05b3f23a3f77db72e",
+      "pdf_header": true,
+      "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "size": 2215244,
+      "source_description": "arXiv research paper 1706.03762",
+      "source_path": "supplement/attention-is-all-you-need.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://arxiv.org/pdf/1706.03762",
+      "status": "downloaded",
+      "tags": [
+        "documents",
+        "papers",
+        "real-world"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/006-bert.pdf",
+      "origin_kind": "external_url",
+      "origin_revision": "url-sha256:33769e0bafc9f0c73baa02ad0d7e041b15fd58f29deaf0f5380a97d31ed6808a",
+      "pdf_header": true,
+      "sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+      "size": 775166,
+      "source_description": "arXiv research paper 1810.04805",
+      "source_path": "supplement/bert.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://arxiv.org/pdf/1810.04805",
+      "status": "downloaded",
+      "tags": [
+        "documents",
+        "papers",
+        "real-world"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/007-helloworld.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "c9efcaa374939ff19fc37974131f1db6d457eb942700c02a63fc9dda983e1400",
+      "size": 678,
+      "source_path": "examples/learning/helloworld.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/examples/learning/helloworld.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/008-160F-2019.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f41f0818365ffd14ca4e55c0556355193bd76632b970d60cc2dec554cac6f379",
+      "size": 328400,
+      "source_path": "test/pdfs/160F-2019.pdf",
+      "source_test_ids": [
+        "160F-2019",
+        "160F-2019-highlight"
+      ],
+      "source_test_links": [
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "highlight"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/160F-2019.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": null,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "failure": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/22060_A1_01_Plans.pdf: response advertises 6264322 bytes, bounded remaining budget is 5242880",
+      "local_path": "positive/009-22060_A1_01_Plans.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": null,
+      "sha256": null,
+      "size": null,
+      "source_path": "test/pdfs/22060_A1_01_Plans.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/22060_A1_01_Plans.pdf",
+      "status": "failed",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/010-90ms_rksj_h_sample.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "d50ad3b93685e9d6061f5cc9957c49ca232a0dd0771aad71e4a615f87f2674be",
+      "size": 1039,
+      "source_path": "test/pdfs/90ms_rksj_h_sample.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/90ms_rksj_h_sample.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/011-Brotli-Prototype-FileA.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "88d7f8b3f6e8cb26fdde69bbcd27990f2f61f807472afce7b5dbe2ae8f4f3ff7",
+      "size": 1305278,
+      "source_path": "test/pdfs/Brotli-Prototype-FileA.pdf",
+      "source_test_ids": [
+        "Brotli-Prototype-FileA"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/Brotli-Prototype-FileA.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/012-IndexedCS_negative_and_high.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "818053a2bf343f31f4ad0b48eb2837eb3b43a4543c9feb6269a9f653fbcee59e",
+      "size": 1798,
+      "source_path": "test/pdfs/IndexedCS_negative_and_high.pdf",
+      "source_test_ids": [
+        "IndexedCS_negative_and_high"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/IndexedCS_negative_and_high.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/013-acroform_calculation_order.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "9081aad78cb6bb1871eb5c51addbe75ce73e4617a3e1fa15aa3da21232b6b755",
+      "size": 1041,
+      "source_path": "test/pdfs/acroform_calculation_order.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/acroform_calculation_order.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/014-annotation-border-styles.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ba3a3c67030f9be2ad2c1989b78ec302501f71cecb4e5ebf193f6ce9ca51ff56",
+      "size": 89833,
+      "source_path": "test/pdfs/annotation-border-styles.pdf",
+      "source_test_ids": [
+        "annotation-border-styles.pdf"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-border-styles.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/015-annotation-button-widget.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f7b1c9c7b2ecb909f6b168cc1b137230076533f977a205472b212b7f0d3a78d7",
+      "size": 23785,
+      "source_path": "test/pdfs/annotation-button-widget.pdf",
+      "source_test_ids": [
+        "annotation-button-widget-annotations",
+        "annotation-button-widget-forms",
+        "annotation-button-widget-print"
+      ],
+      "source_test_links": [
+        false,
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-button-widget.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/016-annotation-caret-ink.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "afdc6fb72e8dcb8f0796a48388fc011e9db212e18d1d7b8cf95b327e88cf6ce9",
+      "size": 93680,
+      "source_path": "test/pdfs/annotation-caret-ink.pdf",
+      "source_test_ids": [
+        "annotation-caret-ink",
+        "annotation-caret-ink-popup-deleted"
+      ],
+      "source_test_links": [
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-caret-ink.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/017-annotation-choice-widget.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "2fcab2aed82afe9775359c1d166fb7aae77e99d25fe03be177e233d02d572538",
+      "size": 91556,
+      "source_path": "test/pdfs/annotation-choice-widget.pdf",
+      "source_test_ids": [
+        "annotation-choice-widget-annotations",
+        "annotation-choice-widget-forms",
+        "annotation-choice-widget-print"
+      ],
+      "source_test_links": [
+        false,
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-choice-widget.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/018-annotation-fileattachment.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "b2f3751cd63e2402d95673f763e52fb105e6ce8e0b41406ca6d9965f5c894d43",
+      "size": 93322,
+      "source_path": "test/pdfs/annotation-fileattachment.pdf",
+      "source_test_ids": [
+        "annotation-fileattachment",
+        "annotation-fileattachment-forced-colors-eq"
+      ],
+      "source_test_links": [
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-fileattachment.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/019-annotation-freetext.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "318ed4bead93fa6ff023571b17ddca41e82fe2347b497ea24903a11e1892fb71",
+      "size": 86024,
+      "source_path": "test/pdfs/annotation-freetext.pdf",
+      "source_test_ids": [
+        "annotation-freetext"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-freetext.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/020-annotation-highlight-without-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ea323f17899de03e7499d0e8531c49e873512a26b40058f357ca399312bf65d6",
+      "size": 16302,
+      "source_path": "test/pdfs/annotation-highlight-without-appearance.pdf",
+      "source_test_ids": [
+        "annotation-highlight-without-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-highlight-without-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/021-annotation-highlight.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "72b6387356ccfdfb95a0a5eff5e1ceb9b7667019807d7b04abaf64dad7ea143a",
+      "size": 92397,
+      "source_path": "test/pdfs/annotation-highlight.pdf",
+      "source_test_ids": [
+        "annotation-highlight"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-highlight.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/022-annotation-ink-without-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "663c7419206b1995c6ae651a1cbf8dbf9d89f0f6b3e61014cf545e21335e75b8",
+      "size": 6288,
+      "source_path": "test/pdfs/annotation-ink-without-appearance.pdf",
+      "source_test_ids": [
+        "annotation-ink-without-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-ink-without-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/023-annotation-line-without-appearance-empty-Rect.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "920062508a60278f9dabb25992538b45ccf13deda97687365b81cf775d034bd5",
+      "size": 969,
+      "source_path": "test/pdfs/annotation-line-without-appearance-empty-Rect.pdf",
+      "source_test_ids": [
+        "annotation-line-without-appearance-empty-Rect"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-line-without-appearance-empty-Rect.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/024-bitmap-composite-and-xnor-halftone.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "a88d42b10bd7c860abd3bf16432378d23a9fcf267a7008be047b608e1a332f4e",
+      "size": 1537,
+      "source_path": "test/pdfs/bitmap-composite-and-xnor-halftone.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_composite_and_xnor_halftone"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-composite-and-xnor-halftone.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/025-bitmap-composite-and-xnor-refine.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "c2046037b2617ffdde875d523bf56a428339d7a6f753c25f4f957317bc9ecc9a",
+      "size": 1891,
+      "source_path": "test/pdfs/bitmap-composite-and-xnor-refine.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_composite_and_xnor_refine"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-composite-and-xnor-refine.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/026-bitmap-composite-and-xnor-text.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "aba6249b83158532ad87ccf47ba69737c9ba2b787c2f815767d239e910564235",
+      "size": 1243,
+      "source_path": "test/pdfs/bitmap-composite-and-xnor-text.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_composite_and_xnor_text"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-composite-and-xnor-text.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/027-bitmap-composite-and-xnor.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "4432b73b7efcae8eb960b409de37af218f366bd548709d74773dae4ac7c257ef",
+      "size": 1314,
+      "source_path": "test/pdfs/bitmap-composite-and-xnor.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_composite_and_xnor"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-composite-and-xnor.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/028-bitmap-composite-or-xor-replace-halftone.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "3ffb92c8a77140d06ea628514a1d44c116a5067d40e3cd3887455b8d40918202",
+      "size": 1849,
+      "source_path": "test/pdfs/bitmap-composite-or-xor-replace-halftone.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_composite_or_xor_replace_halftone"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-composite-or-xor-replace-halftone.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/029-bitmap-composite-or-xor-replace-refine.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "cc9510f5b113c8a2053fbc3891e0c8275bf0f59e1ca44522832e77d6a26cc145",
+      "size": 2343,
+      "source_path": "test/pdfs/bitmap-composite-or-xor-replace-refine.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_composite_or_xor_replace_refine"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-composite-or-xor-replace-refine.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/030-bitmap-composite-or-xor-replace-text.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f4fb077e7e541f01ce21983f7822bd2b43d98f8554bf9cb421a03c7daa6442a5",
+      "size": 1578,
+      "source_path": "test/pdfs/bitmap-composite-or-xor-replace-text.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_composite_or_xor_replace_text"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-composite-or-xor-replace-text.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/031-bitmap-composite-or-xor-replace.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ba8dfa7f3879d2c851287769c0503cf84441e871a93e312e46253e9238dca737",
+      "size": 1630,
+      "source_path": "test/pdfs/bitmap-composite-or-xor-replace.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_composite_or_xor_replace"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-composite-or-xor-replace.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/032-bitmap-customat-tpgdon.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "91b35c6963b8135dde1f509b424d3cfe5b02d9cc023c802c412916c6b76cc938",
+      "size": 1057,
+      "source_path": "test/pdfs/bitmap-customat-tpgdon.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_customat_tpgdon"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-customat-tpgdon.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/033-bitmap-customat.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "9be6eb11af2e4078eb209cbf680bb415960f2275f7e120660d22e7edc09e2ede",
+      "size": 1051,
+      "source_path": "test/pdfs/bitmap-customat.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_customat"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-customat.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/034-bitmap-halftone-10bpp-mmr.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "c164623c7745aa431f59fa4a088e5adf3ff640687469576c64c5b044102ddae0",
+      "size": 1710,
+      "source_path": "test/pdfs/bitmap-halftone-10bpp-mmr.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_10bpp_mmr"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-10bpp-mmr.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/035-bitmap-halftone-10bpp.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "8a4577a1cdbdf342e2a61e18a239423452355c13733075af76fcd008f12eac5f",
+      "size": 1311,
+      "source_path": "test/pdfs/bitmap-halftone-10bpp.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_10bpp"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-10bpp.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/036-ArabicCIDTrueType.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "1cad1de912ba29f89a6d8b08bc5b0f84382874ffedab2c8f9e05ef608c265bb1",
+      "size": 39370,
+      "source_path": "test/pdfs/ArabicCIDTrueType.pdf",
+      "source_test_ids": [
+        "arabiccidtruetype-pdf",
+        "arabiccidtruetype-text"
+      ],
+      "source_test_links": [
+        false,
+        false
+      ],
+      "source_test_types": [
+        "load",
+        "text"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/ArabicCIDTrueType.pdf",
+      "status": "downloaded",
+      "tags": [
+        "encoding",
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/037-ContentStreamNoCycleType3insideType3.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "cffddca28e1b55dba97257a3045bfc83f6daf800dcecbed58697057d493f5dd6",
+      "size": 2440,
+      "source_path": "test/pdfs/ContentStreamNoCycleType3insideType3.pdf",
+      "source_test_ids": [
+        "ContentStreamNoCycleType3insideType3"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/ContentStreamNoCycleType3insideType3.pdf",
+      "status": "downloaded",
+      "tags": [
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/038-Embedded_font.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "4b7588e070cd37c7cfa2ce0a493ba9ec6d57fb36a2ca3c6ab50c74a7818a2f9a",
+      "size": 3323,
+      "source_path": "test/pdfs/Embedded_font.pdf",
+      "source_test_ids": [
+        "Embedded_font.pdf"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/Embedded_font.pdf",
+      "status": "downloaded",
+      "tags": [
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/039-TrueType_without_cmap.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "3e111eef52ce9c0d0b1da043290df4b49a5670c89891fcb3db6962edb12e35aa",
+      "size": 3989,
+      "source_path": "test/pdfs/TrueType_without_cmap.pdf",
+      "source_test_ids": [
+        "TrueType_without_cmap"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/TrueType_without_cmap.pdf",
+      "status": "downloaded",
+      "tags": [
+        "encoding",
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/040-Type3WordSpacing.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "8ac40dc49d40af8b5a50b442ced56b8db962c961a779a0284cd3a6207adc0bb7",
+      "size": 2693,
+      "source_path": "test/pdfs/Type3WordSpacing.pdf",
+      "source_test_ids": [
+        "Type3WordSpacing",
+        "Type3WordSpacing-partial"
+      ],
+      "source_test_links": [
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/Type3WordSpacing.pdf",
+      "status": "downloaded",
+      "tags": [
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/041-ZapfDingbats.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f0d3d15d1dd611a8ca6904389db4fa111ff53c506cb75177743a27fb5c4273fe",
+      "size": 17602,
+      "source_path": "test/pdfs/ZapfDingbats.pdf",
+      "source_test_ids": [
+        "ZapfDingbats"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/ZapfDingbats.pdf",
+      "status": "downloaded",
+      "tags": [
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/042-arial_unicode_ab_cidfont.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "049a4330710d8470896061acf7ee486735e94cef2769f6cc13fec3cb13bb65aa",
+      "size": 13110,
+      "source_path": "test/pdfs/arial_unicode_ab_cidfont.pdf",
+      "source_test_ids": [
+        "openofficearabiccidtruetype-pdf"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "load"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/arial_unicode_ab_cidfont.pdf",
+      "status": "downloaded",
+      "tags": [
+        "encoding",
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/043-arial_unicode_en_cidfont.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "1c4a08108d8074f543c04e9b2ea2b93a842e2b29eb05ee9d99766f430fd365ab",
+      "size": 15779,
+      "source_path": "test/pdfs/arial_unicode_en_cidfont.pdf",
+      "source_test_ids": [
+        "openofficecidtruetype-pdf"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "load"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/arial_unicode_en_cidfont.pdf",
+      "status": "downloaded",
+      "tags": [
+        "encoding",
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/044-cff_bluescale_small_zones.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "82eb3d45411342f622e5a785280821abdadefaade3a3789f2906bda2b22a5d8f",
+      "size": 9708,
+      "source_path": "test/pdfs/cff_bluescale_small_zones.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/cff_bluescale_small_zones.pdf",
+      "status": "downloaded",
+      "tags": [
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/045-cid_cff.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "d894d356411217414fd9040d3d038612e1f4a1598936b2385a76458dd6d64d38",
+      "size": 19970,
+      "source_path": "test/pdfs/cid_cff.pdf",
+      "source_test_ids": [
+        "cid_cff"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/cid_cff.pdf",
+      "status": "downloaded",
+      "tags": [
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/046-cidfont_cmap_overflow.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ecb07ca4b3c6a9fd408db07c29c7e4426fb1bd6ee9e2bbdfa4997b65be602c13",
+      "size": 94168,
+      "source_path": "test/pdfs/cidfont_cmap_overflow.pdf",
+      "source_test_ids": [
+        "cidfont_cmap_overflow"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/cidfont_cmap_overflow.pdf",
+      "status": "downloaded",
+      "tags": [
+        "encoding",
+        "fonts"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/047-complex_ttf_font.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "4b205d3fd11e7ad2b9b86cc446561909d48dd9e0b38327cfd69d0fdeb6c28e14",
+      "size": 57178,
+      "source_path": "test/pdfs/complex_ttf_font.pdf",
+      "source_test_ids": [
+        "complexttffont-pdf"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "load"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/complex_ttf_font.pdf",
+      "status": "downloaded",
+      "tags": [
+        "fonts"
+      ]
+    },
+    {
+      "category": "transparency",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/048-ShowText-ShadingPattern.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "13ac785e8445fbf01d5a8200e0e899daa204cdbe723b02f38f8af61ac48707bb",
+      "size": 4671,
+      "source_path": "test/pdfs/ShowText-ShadingPattern.pdf",
+      "source_test_ids": [
+        "ShowText-ShadingPattern"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/ShowText-ShadingPattern.pdf",
+      "status": "downloaded",
+      "tags": [
+        "transparency"
+      ]
+    },
+    {
+      "category": "transparency",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/049-alphatrans.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "234c0ab8e9458f4d17133b08d2b66170eeb92be2a80e1508aa5117a2bf568f63",
+      "size": 16910,
+      "source_path": "test/pdfs/alphatrans.pdf",
+      "source_test_ids": [
+        "alphatrans"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/alphatrans.pdf",
+      "status": "downloaded",
+      "tags": [
+        "transparency"
+      ]
+    },
+    {
+      "category": "transparency",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/050-blendmode.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "39ce34c2d32738c7c94970fd76559ecb9efd671f5ab99e515a853674e7a824ce",
+      "size": 50567,
+      "source_path": "test/pdfs/blendmode.pdf",
+      "source_test_ids": [
+        "blendmode"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/blendmode.pdf",
+      "status": "downloaded",
+      "tags": [
+        "transparency"
+      ]
+    },
+    {
+      "category": "transparency",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/051-function_based_shading.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "21a0d4951f2d45f86d90dd9bac824805b54b2bd2fefe6efad763d227d484ed64",
+      "size": 3869,
+      "source_path": "test/pdfs/function_based_shading.pdf",
+      "source_test_ids": [
+        "function-based-shading"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/function_based_shading.pdf",
+      "status": "downloaded",
+      "tags": [
+        "transparency"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/052-function_based_shading_cmyk.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "c624d33b595af80746dd96f6440d335a30b1bee3e484d9b0b2cfb0cd54c62be3",
+      "size": 3266,
+      "source_path": "test/pdfs/function_based_shading_cmyk.pdf",
+      "source_test_ids": [
+        "function_based_shading_cmyk"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/function_based_shading_cmyk.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images",
+        "transparency"
+      ]
+    },
+    {
+      "category": "transparency",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/053-gradientfill.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "47df49b25adf1cc4048c3ec2051f1b304535b5d99090bbfb6eaf2f7a45e0bb14",
+      "size": 1444,
+      "source_path": "test/pdfs/gradientfill.pdf",
+      "source_test_ids": [
+        "gradientfill"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/gradientfill.pdf",
+      "status": "downloaded",
+      "tags": [
+        "transparency"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/054-jpx_smaskindata.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "a82813559c74f074b0caf92c80875fc018acb737269a2af5508c7e083b2a5fd3",
+      "size": 2515,
+      "source_path": "test/pdfs/jpx_smaskindata.pdf",
+      "source_test_ids": [
+        "jpx_smaskindata"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/jpx_smaskindata.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images",
+        "transparency"
+      ]
+    },
+    {
+      "category": "transparency",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/055-knockout_blend_multiply.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ff31a84877c957101040906f087d4a73d0f29f3a3060448cb6f6929dbcee5280",
+      "size": 900,
+      "source_path": "test/pdfs/knockout_blend_multiply.pdf",
+      "source_test_ids": [
+        "knockout_blend_multiply"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/knockout_blend_multiply.pdf",
+      "status": "downloaded",
+      "tags": [
+        "transparency"
+      ]
+    },
+    {
+      "category": "transparency",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/056-knockout_groups_test.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "8f5e60de3a74b1fbcc28105dd6573205fd2fd4355f8e90b5cb69b7b66c223026",
+      "size": 25286,
+      "source_path": "test/pdfs/knockout_groups_test.pdf",
+      "source_test_ids": [
+        "knockout_groups_test"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/knockout_groups_test.pdf",
+      "status": "downloaded",
+      "tags": [
+        "transparency"
+      ]
+    },
+    {
+      "category": "transparency",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/057-knockout_inner_backdrop.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "be0b806e63ad097945aa372d286784c8ac152102dc268780ae94dbe89a78e23c",
+      "size": 1146,
+      "source_path": "test/pdfs/knockout_inner_backdrop.pdf",
+      "source_test_ids": [
+        "knockout_inner_backdrop"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/knockout_inner_backdrop.pdf",
+      "status": "downloaded",
+      "tags": [
+        "transparency"
+      ]
+    },
+    {
+      "category": "encoding",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/058-IdentityToUnicodeMap_charCodeOf.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "81243ff4cca5f7898688008224247d88534cd03e76ac3cbbdc38f925cfbee18f",
+      "size": 651,
+      "source_path": "test/pdfs/IdentityToUnicodeMap_charCodeOf.pdf",
+      "source_test_ids": [
+        "IdentityToUnicodeMap_charCodeOf"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "text"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/IdentityToUnicodeMap_charCodeOf.pdf",
+      "status": "downloaded",
+      "tags": [
+        "encoding"
+      ]
+    },
+    {
+      "category": "encoding",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/059-Test-plusminus.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "2d572b042e50128127cc1c5a056da3f94b77854b6cca89ff074e1269b9172a45",
+      "size": 28401,
+      "source_path": "test/pdfs/Test-plusminus.pdf",
+      "source_test_ids": [
+        "plusminus"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/Test-plusminus.pdf",
+      "status": "downloaded",
+      "tags": [
+        "encoding"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/060-bitmap-symbol-symhuffuncompressed-texthuff.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "347a83cce9504ff8414fe028d8db2b311ebe800cab0116469c90456dd889218b",
+      "size": 6177,
+      "source_path": "test/pdfs/bitmap-symbol-symhuffuncompressed-texthuff.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_symbol_symhuffuncompressed_texthuff"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-symbol-symhuffuncompressed-texthuff.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images",
+        "object-streams"
+      ]
+    },
+    {
+      "category": "object-streams",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/061-pdfkit_compressed.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "920b8491769e72567e5c40ef9249f1e9fccacad244a82264c28b97fc97d5ef73",
+      "size": 8286,
+      "source_path": "test/pdfs/pdfkit_compressed.pdf",
+      "source_test_ids": [
+        "pdfkit_compressed"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/pdfkit_compressed.pdf",
+      "status": "downloaded",
+      "tags": [
+        "object-streams"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": true,
+      "evidence_class": "excluded_encrypted",
+      "exclusion_reason": "encryption marker found in PDF header",
+      "expected_valid": false,
+      "local_path": "positive/062-PDFBOX-4352-0.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ede76ce3aaa8a5d9da0e6f7fadce8470083be748035da6db08ede9ea34813f40",
+      "size": 1481,
+      "source_path": "test/pdfs/PDFBOX-4352-0.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/PDFBOX-4352-0.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/063-PDFJS-7562-reduced.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "86fc03927aa3e1b216910de7b98c51aa42bab9baa359219ff4f422133188ed98",
+      "size": 13653,
+      "source_path": "test/pdfs/PDFJS-7562-reduced.pdf",
+      "source_test_ids": [
+        "PDFJS-7562-reduced"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/PDFJS-7562-reduced.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/064-PDFJS-9279-reduced.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "b3067f37e7b2ea17ac0cc547644c32f77174d2d409106893a939b702b0bde617",
+      "size": 3090252,
+      "source_path": "test/pdfs/PDFJS-9279-reduced.pdf",
+      "source_test_ids": [
+        "PDFJS-9279-reduced"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/PDFJS-9279-reduced.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/065-Pages-tree-refs.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "77c8817ea016296ea59e0991ea1a6d1440ef2480cdcd9acb59106938b649233f",
+      "size": 1098,
+      "source_path": "test/pdfs/Pages-tree-refs.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/Pages-tree-refs.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/066-REDHAT-1531897-0.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f468fc2f922bb179f3cb9994c9476fb1840445fe6deb6cdcca42244ab0218786",
+      "size": 871,
+      "source_path": "test/pdfs/REDHAT-1531897-0.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/REDHAT-1531897-0.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/067-S2.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "57d874f2760ded2b70eb58b7b5e31df407d5641b7225576b77458b5dc5009543",
+      "size": 478490,
+      "source_path": "test/pdfs/S2.pdf",
+      "source_test_ids": [
+        "S2-eq"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/S2.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/068-SimFang-variant.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "e6c6e3fb472f06a3d812bef23afc026e90b33497408122b61d577e0f7df49418",
+      "size": 4108,
+      "source_path": "test/pdfs/SimFang-variant.pdf",
+      "source_test_ids": [
+        "SimFang-variant"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/SimFang-variant.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/069-TAMReview.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "a6db6d2f5e4f97e1e28a5919a875a40b89e38d0229b33cc023ca4d353f3ab3ec",
+      "size": 674629,
+      "source_path": "test/pdfs/TAMReview.pdf",
+      "source_test_ids": [
+        "tamreview"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/TAMReview.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/070-ThuluthFeatures.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "752304c24a50834d111793fc038cafc892c071d04f214072729c41a178c161e7",
+      "size": 117677,
+      "source_path": "test/pdfs/ThuluthFeatures.pdf",
+      "source_test_ids": [
+        "thuluthfont-pdf"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/ThuluthFeatures.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/071-XiaoBiaoSong.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "1ea20b84d94b90fa1ccb08bdd2e79e710071e0593fde6d547ab1cd4a3ebc0f88",
+      "size": 5652,
+      "source_path": "test/pdfs/XiaoBiaoSong.pdf",
+      "source_test_ids": [
+        "XiaoBiaoSong"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/XiaoBiaoSong.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/072-annotation-line-without-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "9408cc19a56ef122ea956799a2e5a63b2b3cc70bbd307ed76d2ba89fd9c54fc3",
+      "size": 14170,
+      "source_path": "test/pdfs/annotation-line-without-appearance.pdf",
+      "source_test_ids": [
+        "annotation-line-without-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-line-without-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/073-annotation-line.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "cea9ed8cf5726fa643da0c083bc8db8df790ab5e7ee9a2b62224aab73d9fa742",
+      "size": 84943,
+      "source_path": "test/pdfs/annotation-line.pdf",
+      "source_test_ids": [
+        "annotation-line"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-line.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/074-annotation-link-text-popup.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "06917202feda6b6bb8b57b048655f946f749bdff5a8bfcb35eb0116f38910312",
+      "size": 98997,
+      "source_path": "test/pdfs/annotation-link-text-popup.pdf",
+      "source_test_ids": [
+        "annotation-link-text-popup",
+        "annotation-link-text-popup-rotated-90",
+        "annotation-link-text-popup-rotated-180",
+        "annotation-link-text-popup-rotated-270"
+      ],
+      "source_test_links": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq",
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-link-text-popup.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/075-annotation-polyline-polygon-without-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "710e7dbac4fcd2021e5a9cf7072e00284a1882d1ebacac43430b15c027902932",
+      "size": 91426,
+      "source_path": "test/pdfs/annotation-polyline-polygon-without-appearance.pdf",
+      "source_test_ids": [
+        "annotation-polyline-polygon-without-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-polyline-polygon-without-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/076-annotation-polyline-polygon.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "66303646dd550366994f6715678863536617093335825dda3c123616555b69e2",
+      "size": 88691,
+      "source_path": "test/pdfs/annotation-polyline-polygon.pdf",
+      "source_test_ids": [
+        "annotation-polyline-polygon"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-polyline-polygon.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/077-annotation-square-circle-without-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "d0a98bb14150b1bc2bc028876198098c99420ea10d30d43b4f9c5cb36bb023a7",
+      "size": 16007,
+      "source_path": "test/pdfs/annotation-square-circle-without-appearance.pdf",
+      "source_test_ids": [
+        "annotation-square-circle-without-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-square-circle-without-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/078-annotation-square-circle.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "88ed9ed813c3585b3098b9f4eef5107426f7829044117cd87f77bdc38a8e3f72",
+      "size": 88740,
+      "source_path": "test/pdfs/annotation-square-circle.pdf",
+      "source_test_ids": [
+        "annotation-square-circle"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-square-circle.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/079-annotation-squiggly-without-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "771698679397da9423bcb26e641c8cba173f00dc54f60656898143403e2bfbdd",
+      "size": 15589,
+      "source_path": "test/pdfs/annotation-squiggly-without-appearance.pdf",
+      "source_test_ids": [
+        "annotation-squiggly-without-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-squiggly-without-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/080-annotation-squiggly.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "95a2af9d01c2e532711a1483d58a258e469f3ff0e7dd1c2ae45c70bd8f9bb6e8",
+      "size": 93644,
+      "source_path": "test/pdfs/annotation-squiggly.pdf",
+      "source_test_ids": [
+        "annotation-squiggly"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-squiggly.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/081-annotation-stamp.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "76d566c092c23ccbec4bb488c40dc6daec8a381cb5386452b186728652436704",
+      "size": 88903,
+      "source_path": "test/pdfs/annotation-stamp.pdf",
+      "source_test_ids": [
+        "annotation-stamp"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-stamp.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/082-annotation-strikeout-without-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "9a99e1469ad4e285381016df440fada4d94b9384d051760b145fd63b794943a8",
+      "size": 15753,
+      "source_path": "test/pdfs/annotation-strikeout-without-appearance.pdf",
+      "source_test_ids": [
+        "annotation-strikeout-without-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-strikeout-without-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/083-annotation-strikeout.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ca7225dbdc6f8a26814cf0d67f5c509589e2cc09ace6bdb04a375a266db5b708",
+      "size": 91804,
+      "source_path": "test/pdfs/annotation-strikeout.pdf",
+      "source_test_ids": [
+        "annotation-strikeout"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-strikeout.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/084-annotation-text-widget.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "9f091ceb368ad0406094efaa6c50d5033735ee52f383e0973dc53a7467089d7c",
+      "size": 93171,
+      "source_path": "test/pdfs/annotation-text-widget.pdf",
+      "source_test_ids": [
+        "annotation-text-widget-annotations",
+        "annotation-text-widget-forms",
+        "annotation-text-widget-print"
+      ],
+      "source_test_links": [
+        false,
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-text-widget.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/085-annotation-text-without-popup.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "2e0c788c795ab08178c12d26f73bebb6e18455a885568005770e8b6b947c4ceb",
+      "size": 24281,
+      "source_path": "test/pdfs/annotation-text-without-popup.pdf",
+      "source_test_ids": [
+        "annotation-text-without-popup"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-text-without-popup.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/086-annotation-tx.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "c7be52654eaede8a9f33757168957f938f56e73fcd4c53539db5672dee426208",
+      "size": 11672,
+      "source_path": "test/pdfs/annotation-tx.pdf",
+      "source_test_ids": [
+        "annotation-tx",
+        "annotation-tx-forms"
+      ],
+      "source_test_links": [
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-tx.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/087-annotation-tx2.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "9612df43f8c48b574ddc7a81c0781b864235f7ff328dc9b9e646b924a8706650",
+      "size": 21285,
+      "source_path": "test/pdfs/annotation-tx2.pdf",
+      "source_test_ids": [
+        "annotation-tx2-annotations",
+        "annotation-tx2-forms"
+      ],
+      "source_test_links": [
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-tx2.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/088-annotation-tx3.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "15e3ac008cc848e593474aa312a9ef1fbecad1f69b4580361ffd2d334575bb91",
+      "size": 31642,
+      "source_path": "test/pdfs/annotation-tx3.pdf",
+      "source_test_ids": [
+        "annotation-tx3-annotations",
+        "annotation-tx3-forms"
+      ],
+      "source_test_links": [
+        false,
+        false
+      ],
+      "source_test_types": [
+        "eq",
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-tx3.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/089-annotation-underline-without-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "3a88f23b262ff72e613aecbdd75c2aa76bde7a5e84eef1acac04d355397876b6",
+      "size": 15304,
+      "source_path": "test/pdfs/annotation-underline-without-appearance.pdf",
+      "source_test_ids": [
+        "annotation-underline-without-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-underline-without-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/090-annotation-underline.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ef04b7049d5cab49c702887c423f20cfecf76d36905772209cc6781425d8f671",
+      "size": 92151,
+      "source_path": "test/pdfs/annotation-underline.pdf",
+      "source_test_ids": [
+        "annotation-underline"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation-underline.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/091-annotation_hidden_noview.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "97fd9418a5e24d326e66734462de0db215d40a6dd0e0734e12924fa364e5b390",
+      "size": 12114,
+      "source_path": "test/pdfs/annotation_hidden_noview.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation_hidden_noview.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "forms",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/092-annotation_hidden_print.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "d084450dfbb7d5c53593ed8f0a005553bd0ae797e34b3a1c8c00c7eec2fc5a9d",
+      "size": 6539,
+      "source_path": "test/pdfs/annotation_hidden_print.pdf",
+      "source_test_ids": [
+        "annotation_hidden_print"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/annotation_hidden_print.pdf",
+      "status": "downloaded",
+      "tags": [
+        "forms"
+      ]
+    },
+    {
+      "category": "encoding",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/093-asciihexdecode.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "17cc92aa58ec48f75b01c6b6e7f8c8bade0a36f7295d0f833a16bafae854dc79",
+      "size": 743,
+      "source_path": "test/pdfs/asciihexdecode.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/asciihexdecode.pdf",
+      "status": "downloaded",
+      "tags": [
+        "encoding"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/094-attachment.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "9acec9f83f1557183c83a87111b85141e657849ac2aa92864ffd63cc91572379",
+      "size": 15299,
+      "source_path": "test/pdfs/attachment.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/attachment.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": true,
+      "evidence_class": "excluded_encrypted",
+      "exclusion_reason": "encryption marker found in PDF header",
+      "expected_valid": false,
+      "local_path": "positive/095-auth-event-ef-open.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "144f617db7503a4d701d6383700add3254cb6a686741dd8f59b1284a82aca8ae",
+      "size": 2738,
+      "source_path": "test/pdfs/auth-event-ef-open.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/auth-event-ef-open.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/096-autoprint.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "1b6bee31ed8b88ec747c24308f9bd6b464043e6446c485a754507e7eeda92e90",
+      "size": 9138,
+      "source_path": "test/pdfs/autoprint.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/autoprint.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/097-basicapi.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "925853d98d67d5dae7473c635f932958e1695ce1029d23b2ecd2531cb65f1f14",
+      "size": 105779,
+      "source_path": "test/pdfs/basicapi.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/basicapi.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/098-bigboundingbox.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "6cd3d57b85891021af2de75ac304a6efc2894793dab7594968b0b5efcd1d0013",
+      "size": 76044,
+      "source_path": "test/pdfs/bigboundingbox.pdf",
+      "source_test_ids": [
+        "bigboundingbox"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bigboundingbox.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/099-bitmap-halftone-composite.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "e52ea26a9cadf0a1fbcd58c3ae411cf2bf14b05f172966283a6254296c4825a0",
+      "size": 1599,
+      "source_path": "test/pdfs/bitmap-halftone-composite.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_composite"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-composite.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/100-bitmap-halftone-grid.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "5ba3f0ca836c6df256415b2ddd61286b819f5b6a3f5598e146601839302c0158",
+      "size": 1622,
+      "source_path": "test/pdfs/bitmap-halftone-grid.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_grid"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-grid.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/101-bitmap-halftone-refine.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f2efff25bcf1ee5d8ee87e3b7c54c7b75e8a1ad33c9e5be22386ed35648dfd7d",
+      "size": 1399,
+      "source_path": "test/pdfs/bitmap-halftone-refine.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_refine"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-refine.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/102-bitmap-halftone-skip-dummy.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "6cdcfefd9200ddfbd37a15ce66ef50421d2fbcc9b396b2a9714b316f7c0a0ff4",
+      "size": 1287,
+      "source_path": "test/pdfs/bitmap-halftone-skip-dummy.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_skip_dummy"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-skip-dummy.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/103-bitmap-halftone-skip-grid-template1.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "bafb6edc883b156dbc337b74b0230fbcc5c45f48e08123f3040872edb1c1ec69",
+      "size": 1606,
+      "source_path": "test/pdfs/bitmap-halftone-skip-grid-template1.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_skip_grid_template1"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-skip-grid-template1.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/104-bitmap-halftone-skip-grid-template2.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "4aedf60701a9b35e17766e4c26a7326adb0b618c87fb487e7cdde8c909efdd11",
+      "size": 1597,
+      "source_path": "test/pdfs/bitmap-halftone-skip-grid-template2.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_skip_grid_template2"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-skip-grid-template2.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/105-bitmap-halftone-skip-grid-template3.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "ad156587b727404d16794dafcc738319b8a2a601374895634b0d5ee8d8b34f1b",
+      "size": 1600,
+      "source_path": "test/pdfs/bitmap-halftone-skip-grid-template3.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_skip_grid_template3"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-skip-grid-template3.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/106-bitmap-halftone-skip-grid.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "cfd77f057c98bb1af01fc108c5a9e0b09b438e0e4f1a31aa8b07ce7b275cc348",
+      "size": 1624,
+      "source_path": "test/pdfs/bitmap-halftone-skip-grid.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_skip_grid"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-skip-grid.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/107-bitmap-halftone-template1.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f509758d869cc08a1b45b0fcee33794ae1f45887105ba6fa5a2c8f52598518fc",
+      "size": 1265,
+      "source_path": "test/pdfs/bitmap-halftone-template1.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_template1"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-template1.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/108-bitmap-halftone-template2.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "6c3d7bdc9e1012cce3c80b27592fdcc7864734c628184e1b55245b678d0ec47f",
+      "size": 1299,
+      "source_path": "test/pdfs/bitmap-halftone-template2.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_template2"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-template2.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/109-bitmap-halftone-template3.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "4f249e0d12ad232b96de05592c250498dd3fc661607a8fcbd721bdb5a79eb425",
+      "size": 1300,
+      "source_path": "test/pdfs/bitmap-halftone-template3.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone_template3"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone-template3.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/110-bitmap-halftone.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "c276d6cbc7d0709af448b532232c9f8b92424859974b38feaef0d8983bd6d7c0",
+      "size": 1287,
+      "source_path": "test/pdfs/bitmap-halftone.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_halftone"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-halftone.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/111-bitmap-initially-unknown-size.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "97c0fe6757d24bc2469a8b3a1fab346550ae5e7289f6855e21ebc2ce421dbe6f",
+      "size": 1030,
+      "source_path": "test/pdfs/bitmap-initially-unknown-size.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_initially_unknown_size"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-initially-unknown-size.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/112-bitmap-mmr.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "32b70aeb63ca60f60c25c2d797b8f5af16043d66dce1bcb0b0f08a78acee95ed",
+      "size": 1122,
+      "source_path": "test/pdfs/bitmap-mmr.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_mmr"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-mmr.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/113-bitmap-p32-eof.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "6c959401b0a43e94b4abc580d95b8373adcea87cb13612a3b9eece18767de576",
+      "size": 1490,
+      "source_path": "test/pdfs/bitmap-p32-eof.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_p32_eof"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-p32-eof.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/114-bitmap-randomaccess.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "82079253a8c5af9683e5dc341e7416d8eb5901c48d6af850a79413e6f11711ec",
+      "size": 1026,
+      "source_path": "test/pdfs/bitmap-randomaccess.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_randomaccess"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-randomaccess.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/115-bitmap-refine-customat-tpgron.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "7a17d8f6d26061f3110efd54f297a7e0e8d4652e3086cc99e3c171d31fd0810f",
+      "size": 1146,
+      "source_path": "test/pdfs/bitmap-refine-customat-tpgron.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_refine_customat_tpgron"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-refine-customat-tpgron.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/116-bitmap-refine-customat.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "161d25d77c9bf788515dd0fc1aaaf6e35e1c23495acffe9cf99a98d567d1c5de",
+      "size": 1146,
+      "source_path": "test/pdfs/bitmap-refine-customat.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_refine_customat"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-refine-customat.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/117-bitmap-refine-lossless.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f30056cb8e30203e3c16f00ffe28bc90bdb6af8aa72d58c14f19e71ec9c7cecf",
+      "size": 1128,
+      "source_path": "test/pdfs/bitmap-refine-lossless.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_refine_lossless"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-refine-lossless.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/118-bitmap-refine-page-subrect.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "74114e6f3925faf7145c0738168ecd3041c45c0ea69b2a91e7f105cdf7045bd0",
+      "size": 1110,
+      "source_path": "test/pdfs/bitmap-refine-page-subrect.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_refine_page_subrect"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-refine-page-subrect.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/119-bitmap-refine-page.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "7dbeb64018e183c77333996eeb5c2b9bcc90caaca8381ad42fb98a64c14025eb",
+      "size": 1127,
+      "source_path": "test/pdfs/bitmap-refine-page.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_refine_page"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-refine-page.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "positive_compatibility",
+      "expected_valid": true,
+      "local_path": "positive/120-bitmap-refine-refine.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "2ebb942ac5be0e066ab4ce204384a39b61692ca75fab0a4df4f36dae925e1f4d",
+      "size": 1203,
+      "source_path": "test/pdfs/bitmap-refine-refine.pdf",
+      "source_test_ids": [
+        "jbig2_bitmap_refine_refine"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bitmap-refine-refine.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    },
+    {
+      "category": "fonts",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/121-ContentStreamCycleType3insideType3.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "131aec277c444c985d502e5f589f37735d275a8ea247c1beedba0781fbe99d40",
+      "size": 2440,
+      "source_path": "test/pdfs/ContentStreamCycleType3insideType3.pdf",
+      "source_test_ids": [
+        "ContentStreamCycleType3insideType3"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/ContentStreamCycleType3insideType3.pdf",
+      "status": "downloaded",
+      "tags": [
+        "fonts"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/122-GHOSTSCRIPT-698804-1-fuzzed.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "62e518ca7894e8b8b8ed9927da3007cdc5e9ccc5b111bbb22d6101d4a8d7490e",
+      "size": 627,
+      "source_path": "test/pdfs/GHOSTSCRIPT-698804-1-fuzzed.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/GHOSTSCRIPT-698804-1-fuzzed.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/123-PDFBOX-3148-2-fuzzed.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "1c780335b494ac52eae9fa4d05f1bba88c18ca6b24e6e302b9f271de05e256aa",
+      "size": 244351,
+      "source_path": "test/pdfs/PDFBOX-3148-2-fuzzed.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/PDFBOX-3148-2-fuzzed.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/124-bad-PageLabels.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "eff0ee7d1cf2e1a7ccfb25a8fc4c2bbea0ec23c838b61a199a57dbb732ddeaad",
+      "size": 798,
+      "source_path": "test/pdfs/bad-PageLabels.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bad-PageLabels.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/125-bomb_giant.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "a33bc9ff49df11644e5790add536df87b702684b729999539df32ae655fd6dd1",
+      "size": 123242,
+      "source_path": "test/pdfs/bomb_giant.pdf",
+      "source_test_ids": [
+        "bomb_giant_contents_image_stream"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/bomb_giant.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/126-boundingBox_invalid.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "f85be7aaf217f8f1864b910501d4aeea53f3d7a503df5b81dd6aaa267e5968ad",
+      "size": 1263,
+      "source_path": "test/pdfs/boundingBox_invalid.pdf",
+      "source_test_ids": [
+        "boundingBox_invalid"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/boundingBox_invalid.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/127-checkbox-bad-appearance.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "0cd13bf7375a2b6b9b01bb694aefcfe9dac225105cb9ad7e03798783b3318ad9",
+      "size": 19872,
+      "source_path": "test/pdfs/checkbox-bad-appearance.pdf",
+      "source_test_ids": [
+        "checkbox-bad-appearance"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/checkbox-bad-appearance.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": true,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/128-empty_protected.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "69556af04215faec7da3e93e823c64f1b74679e52fd10379176f0e0462dd4b6c",
+      "size": 5605,
+      "source_path": "test/pdfs/empty_protected.pdf",
+      "source_test_ids": [
+        "protected-stamp-editor-save-print"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/empty_protected.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": true,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/129-encrypted-attachment.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "0f44da5152adf8cafcd7b0057d840310d78e17d033ee5414da0881b6dcd130ab",
+      "size": 2719,
+      "source_path": "test/pdfs/encrypted-attachment.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/encrypted-attachment.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/130-helloworld-bad.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "c3e22ea5d7e6f5b7218d76abce4284728889df516a93c1b74a82c4fd69aa1639",
+      "size": 745,
+      "source_path": "test/pdfs/helloworld-bad.pdf",
+      "source_test_ids": [
+        "helloworld-bad"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "eq"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/helloworld-bad.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/131-pdfjsbad1586.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "4625f06d2a8796cb76999b5d450cf41bbb41b00ffe0196a9954b20bfa7d916fe",
+      "size": 7911,
+      "source_path": "test/pdfs/pdfjsbad1586.pdf",
+      "source_test_ids": [
+        "issue1586"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "load"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/pdfjsbad1586.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/132-poppler-395-0-fuzzed.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "e2ec919e787c0069948598f9c9d7a39787acde602aacd2bb263298a85e2e0c64",
+      "size": 23068,
+      "source_path": "test/pdfs/poppler-395-0-fuzzed.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/poppler-395-0-fuzzed.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/133-poppler-742-0-fuzzed.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "e651252b0d4fb2556c957c13844f5630b32352b0483fb2cc1592cd778290a01a",
+      "size": 40662,
+      "source_path": "test/pdfs/poppler-742-0-fuzzed.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/poppler-742-0-fuzzed.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/134-poppler-90-0-fuzzed.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "233c39dc16ed862911668784739d07dc9a27ae844d63188de7019da4f012f942",
+      "size": 611575,
+      "source_path": "test/pdfs/poppler-90-0-fuzzed.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/poppler-90-0-fuzzed.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "documents",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/135-poppler-937-0-fuzzed.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "732311f7b606c6360121644b9b7709dc8d369f37157704dc16e6791a4ca6e680",
+      "size": 1666,
+      "source_path": "test/pdfs/poppler-937-0-fuzzed.pdf",
+      "source_test_ids": [],
+      "source_test_links": [],
+      "source_test_types": [],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/poppler-937-0-fuzzed.pdf",
+      "status": "downloaded",
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "category": "images",
+      "encrypted": false,
+      "evidence_class": "negative_stress",
+      "expected_valid": false,
+      "local_path": "negative/136-scan-bad.pdf",
+      "origin_kind": "github_pdfjs",
+      "origin_revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+      "pdf_header": true,
+      "sha256": "d40f31f182cf254ab134826d379875acacb1f7b48bf1a57bce2e30b38d16628e",
+      "size": 29832,
+      "source_path": "test/pdfs/scan-bad.pdf",
+      "source_test_ids": [
+        "scan-bad"
+      ],
+      "source_test_links": [
+        false
+      ],
+      "source_test_types": [
+        "load"
+      ],
+      "source_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/pdfs/scan-bad.pdf",
+      "status": "downloaded",
+      "tags": [
+        "images"
+      ]
+    }
+  ],
+  "policy": {
+    "max_file_bytes": 5242880,
+    "max_total_bytes": 157286400,
+    "minimum_positive_non_encrypted": 100,
+    "negative_candidates_requested": 16,
+    "positive_candidates_requested": 120,
+    "representativeness_claim": false,
+    "request_timeout_seconds": 30,
+    "retries": 3,
+    "selection_is_best_effort": true
+  },
+  "schema_version": 1,
+  "source": {
+    "raw_base_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/",
+    "repository": "mozilla/pdf.js",
+    "revision": "c33c32aed46637ec6010e9f6c031c72e1c529d31",
+    "selection_scope": "test/pdfs plus examples/learning/helloworld.pdf and fixed supplements",
+    "supplements": [
+      {
+        "category": "documents",
+        "description": "RFC 8259 JSON specification PDF",
+        "name": "rfc8259",
+        "url": "https://www.rfc-editor.org/rfc/pdfrfc/rfc8259.txt.pdf"
+      },
+      {
+        "category": "documents",
+        "description": "PDF Association PDF 2.0 publication",
+        "name": "pdf20-an002-af",
+        "url": "https://pdfa.org/download-area/publications/PDF20_AN002-AF.pdf"
+      },
+      {
+        "category": "documents",
+        "description": "W3C page-authoring techniques working draft",
+        "name": "wai-pageauth-tech",
+        "url": "https://www.w3.org/WAI/GL/WD-WAI-PAGEAUTH-19990104/wai-pageauth-tech.pdf"
+      },
+      {
+        "category": "forms",
+        "description": "W3C WCAG PDF headers and footers working example",
+        "name": "wcag22-headers-footers",
+        "url": "https://www.w3.org/WAI/WCAG22/working-examples/pdf-headers-footers/headers-footers-oo.pdf"
+      },
+      {
+        "category": "documents",
+        "description": "arXiv research paper 1706.03762",
+        "name": "attention-is-all-you-need",
+        "url": "https://arxiv.org/pdf/1706.03762"
+      },
+      {
+        "category": "documents",
+        "description": "arXiv research paper 1810.04805",
+        "name": "bert",
+        "url": "https://arxiv.org/pdf/1810.04805"
+      }
+    ],
+    "test_manifest_url": "https://raw.githubusercontent.com/mozilla/pdf.js/c33c32aed46637ec6010e9f6c031c72e1c529d31/test/test_manifest.json",
+    "tree_url": "https://api.github.com/repos/mozilla/pdf.js/git/trees/c33c32aed46637ec6010e9f6c031c72e1c529d31?recursive=1"
+  },
+  "summary": {
+    "downloaded_bytes": 13322362,
+    "entries": 136,
+    "failed_downloads": 2,
+    "negative_attempted": 16,
+    "positive_downloaded": 118,
+    "positive_encrypted_excluded": 2,
+    "positive_non_encrypted": 116,
+    "positive_non_pdf_excluded": 0
+  }
+}

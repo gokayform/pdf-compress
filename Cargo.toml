@@ -1,0 +1,22 @@
+[package]
+name = "pdf-compress"
+version = "0.2.0"
+edition = "2021"
+authors = ["Gökay Okyay <gokay@jotform.com>"]
+description = "Pure-Rust, in-process PDF compressor built on lopdf"
+repository = "https://github.com/gokayform/pdf-compress"
+
+[dependencies]
+lopdf = { git = "https://github.com/gokayform/lopdf.git", rev = "5eb09b13f57c8fb072297f16d75b5d4309cc7905", default-features = false }
+flate2 = { version = "1", default-features = false, features = ["rust_backend"] }
+hayro-jbig2 = { version = "0.3.0", default-features = false }
+image = { version = "0.25.10", default-features = false, features = ["jpeg"] }
+
+[[bin]]
+name = "pdf-compress"
+path = "src/main.rs"
+
+[[example]]
+name = "pdf-compress-verify"
+path = "tests/support/verify.rs"
+test = false
